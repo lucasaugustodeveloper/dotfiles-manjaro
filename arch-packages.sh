@@ -11,5 +11,6 @@ yay -S libratbag piper --noconfirm  --needed && \
 yay -S peco ghq micro --noconfirm --needed && \
 yay -S dbeaver insomnia-bin --noconfirm  --needed && \
 yay -S opera-ffmpeg-codecs --noconfirm --needed && \
+yay -S spotify --noconfirm --needed && \
 yay -S flatpak --noconfirm --needed
 
