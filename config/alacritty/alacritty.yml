@@ -95,8 +95,8 @@ window:
   decorations: none
   startup_mode: Maximized
 
-#shell:
-#  program: /usr/bin/tmux
+shell:
+  program: /usr/bin/tmux
 
 cursor:
   style:
