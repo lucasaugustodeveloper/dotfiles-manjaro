@@ -25,6 +25,9 @@ ln -s ~/dotfiles/config/zsh/.zshrc ~/.zshrc
 # LunarVim
 ln -s ~/dotfiles/config/lvim/config.lua ~/.config/lvim/config.lua
 
+# Tmux
+ln -s ~/dotfiles/config/tmux/.tmux.conf ~/.tmux.conf
+
 #Terraform
 # if [ -f '~/.terraformrc' ]; then mv ~/.terraformrc ~/.terraformrc_original; fi
 # ln -s ~/dotfiles/config/.terraformrc ~/.terraformrc

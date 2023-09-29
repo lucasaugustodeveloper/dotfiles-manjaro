@@ -2,7 +2,7 @@
 
 # https://aur.archlinux.org/packages/yay-bin
 
-yay -S github-cli terminator alacritty zsh fzf htop screenfetch --noconfirm --needed && \
+yay -S github-cli terminator alacritty tmux zsh fzf htop screenfetch --noconfirm --needed && \
 yay -S git-extras ctop-bin gotop-bin --noconfirm --needed && \
 yay -S visual-studio-code-bin 1password sublime-text-4 vscodium-bin --noconfirm --needed && \
 yay -S telegram-desktop --noconfirm --needed && \
