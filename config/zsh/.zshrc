@@ -119,7 +119,7 @@ source $HOME/.cargo/bin
 source $HOME/.cargo/env
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 source $HOME/.asdf/asdf.sh
-#source $HOME/.local/bin
+source $HOME/.local/bin
 
 #export ANDROID_HOME=/opt/android-sdk
 #export JAVA_HOME=/usr/lib/jvm/java-11-openjdk
