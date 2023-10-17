@@ -19,6 +19,8 @@
   path = ~/dotfiles/config/gitconfig/.gitconfig-default
 [includeIf "gitdir:~/dotfiles/"]
   path = ~/dotfiles/config/gitconfig/.gitconfig-default
+[includeIf "gitdir:~/Tests/"]
+  path = ~/dotfiles/config/gitconfig/.gitconfig-default
 
 
 [pull]
