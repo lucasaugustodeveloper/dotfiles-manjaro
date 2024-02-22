@@ -40,6 +40,7 @@ flatpak install flathub -y org.flameshot.Flameshot && \
 flatpak install flathub -y net.cozic.joplin_desktop && \
 flatpak install flathub -y com.authy.Authy && \
 flatpak install flathub -y org.gustavoperedo.FontDownloader && \
+flatpak install flathub -y org.gnome.Extensions && \
 
 flatpak list
 
