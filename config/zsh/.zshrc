@@ -110,9 +110,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ls="exa --icons -H"
+#!/bin/bashalias ls="exa --icons -H"
 alias cat="bat --style=\"numbers,changes,header\""
-#alias docker="podman"
+alias docker="podman"
 
 # add source of applications
 source $HOME/.cargo/bin
