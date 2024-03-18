@@ -110,9 +110,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#!/bin/bashalias ls="exa --icons -H"
+alias ls="exa --icons -H"
 alias cat="bat --style=\"numbers,changes,header\""
-alias docker="podman"
+#alias docker="podman"
 
 # add source of applications
 source $HOME/.cargo/bin
@@ -121,18 +121,19 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 source $HOME/.asdf/asdf.sh
 export PATH=$HOME/.local/bin:$PATH
 
-#export ANDROID_HOME=/opt/android-sdk
+#export ANDROID_HOME=/opt/android-studio
 #export JAVA_HOME=/usr/lib/jvm/java-11-openjdk
-#export FLUTTER_PATH=/opt/flutter/bin
+export FLUTTER_PATH=$HOME/.flutter/bin
 #export ANDROID_HOME=$HOME/Android/cmdline-tools/latest
-#export ANDROID_HOME=/opt/android-sdk
+export ANDROID_HOME=$HOME/Android/Sdk
 #export CHROME_EXECUTABLE=/opt/google/chrome/google-chrome
+export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable #arch/manjaro
 
-#export PATH=$PATH:$ANDROID_HOME/emulator
-#export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 #export PATH=$PATH:$JAVA_HOME
-#export PATH=$PATH:$FLUTTER_PATH
-#export PATH=$PATH:$ANDROID_HOME
+export PATH=$PATH:$FLUTTER_PATH
+export PATH=$PATH:$ANDROID_HOME
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
