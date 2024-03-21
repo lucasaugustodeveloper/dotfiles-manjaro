@@ -7,7 +7,7 @@
   [[default]]
     visible_bell = True
     background_color = "#282a36"
-    background_darkness = 0.95
+    background_darkness = 1.0
     background_type = transparent
     background_image = None
     cursor_shape = ibeam
@@ -22,11 +22,30 @@
     title_receive_bg_color = "#8be9fd"
     title_use_system_font = False
     title_font = Fira Code 9
+  [[rose]]
+    visible_bell = True
+    background_color = "#282a36"
+    background_darkness = 1.0
+    background_type = transparent
+    background_image = None
+    cursor_shape = ibeam
+    font = Hasklug NFM 14
+    foreground_color = "#f8f8f2"
+    palette = "#403c58:#ea6f91:#9bced7:#f1ca93:#34738e:#c3a5e6:#eabbb9:#faebd7:#6f6e85:#ea6f91:#9bced7:#f1ca93:#34738e:#c3a5e6:#eabbb9:#ffffff"
+    login_shell = True
+    use_custom_command = True
+    custom_command = /usr/bin/zsh
+    use_system_font = False
+    title_transmit_bg_color = "#ff5555"
+    title_receive_bg_color = "#8be9fd"
+    title_use_system_font = False
+    title_font = Fira Code 9
 [layouts]
   [[default]]
     [[[child1]]]
       parent = window0
       type = Terminal
+      profile = rose
     [[[window0]]]
       parent = ""
       type = Window
