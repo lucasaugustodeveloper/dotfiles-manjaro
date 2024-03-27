@@ -19,6 +19,6 @@ key = "F11"
 program = "/usr/bin/tmux"
 
 [window]
-decorations = "none"
+#decorations = "none"
 startup_mode = "Maximized"
 
