@@ -128,13 +128,15 @@ export FLUTTER_PATH=$HOME/.flutter/bin
 export ANDROID_HOME=$HOME/Android/Sdk
 #export CHROME_EXECUTABLE=/opt/google/chrome/google-chrome
 export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable #arch/manjaro
+export DOCKER_CONFIG=$HOME/.docker
 
+# Variables PATH
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 #export PATH=$PATH:$JAVA_HOME
 export PATH=$PATH:$FLUTTER_PATH
 export PATH=$PATH:$ANDROID_HOME
-
+export PATH=$PATH:$DOCKER_CONFIG
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
