@@ -28,7 +28,7 @@ ln -s ~/dotfiles/config/zsh/.zshrc ~/.zshrc
 ln -s ~/dotfiles/config/lvim/config.lua ~/.config/lvim/config.lua
 
 # Tmux
-if [ $(ls ~/.terraformrc); then
+if [ $(ls ~/.terraformrc) ]; then
     rm ~/.tmux.conf
 fi
 ln -s ~/dotfiles/config/tmux/.tmux.conf ~/.tmux.conf
