@@ -38,7 +38,6 @@ flatpak install flathub -y com.calibre_ebook.calibre && \
 flatpak install flathub -y io.github.aandrew_me.ytdn && \
 flatpak install flathub -y org.flameshot.Flameshot && \
 flatpak install flathub -y net.cozic.joplin_desktop && \
-flatpak install flathub -y com.authy.Authy && \
 flatpak install flathub -y org.gustavoperedo.FontDownloader && \
 flatpak install flathub -y org.gnome.Extensions && \
 
