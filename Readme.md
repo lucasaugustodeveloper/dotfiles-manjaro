@@ -15,7 +15,7 @@ O código do componente a ser analisado esta na pasta `technical-analytics` e o 
   - Avaliar código existente e planejar evolução
   - Visão sistêmica
 
-# Desafio de Estruturação de Projeto React + TypeScript + styled-components
+# Desafio de Estruturação de Projeto Next + TypeScript + Tailwind
 
 O desafio consiste na criação de um site de e-commerce simplificado do zero, onde o candidato terá que criar um fluxo com três módulos/telas.
 
@@ -41,7 +41,7 @@ Para o desafio, simularemos uma API, onde o candidato terá que realizar um **GE
   - Qualidade do código:
     - Organização das pastas;
     - Domínio do TypeScript;
-    - Domínio do styled-components;
+    - Domínio do Next e Tailwind;
     - Bom nível de Componentização;
     - Aplicação de tecnologias;
       - Ex: aplicar uma biblioteca específica que acelere o desenvolvimento.
