@@ -137,6 +137,8 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:$FLUTTER_PATH
 export PATH=$PATH:$ANDROID_HOME
 export PATH=$PATH:$DOCKER_CONFIG
+export PATH=$HOME/.local/share/gem/ruby/3.3.0/bin:$PATH
+
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
