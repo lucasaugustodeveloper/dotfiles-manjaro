@@ -118,8 +118,10 @@ alias cat="bat --style=\"numbers,changes,header\""
 source $HOME/.cargo/bin
 source $HOME/.cargo/env
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
-source $HOME/.asdf/asdf.sh
+#source $HOME/.asdf/asdf.sh
 export PATH=$HOME/.local/bin:$PATH
+export ASDF_DATA_DIR="$HOME/.asdf"
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 #export ANDROID_HOME=/opt/android-studio
 #export JAVA_HOME=/usr/lib/jvm/java-11-openjdk
@@ -147,3 +149,5 @@ export PATH=$HOME/.local/share/gem/ruby/3.3.0/bin:$PATH
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+PATH=~/.console-ninja/.bin:$PATH
