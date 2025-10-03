@@ -31,7 +31,7 @@ São elas:
 
 **Sobre a API**
 
-Para o desafio, simularemos uma API, onde o candidato terá que realizar um **GET** para [**https://wefit-movies.vercel.app/api/movies**](https://wefit-movies.vercel.app/api/movies) onde terá a lista de filmes.
+Para o desafio, simularemos uma API, onde o candidato terá que realizar um **GET** para [**https://wemovies-seven.vercel.app/api/movies**](https://wemovies-seven.vercel.app/api/movies) onde terá a lista de filmes.
 
 ## Avaliação
 
