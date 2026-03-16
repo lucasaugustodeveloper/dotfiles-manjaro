@@ -15,7 +15,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -140,6 +140,7 @@ export PATH=$PATH:$FLUTTER_PATH
 export PATH=$PATH:$ANDROID_HOME
 export PATH=$PATH:$DOCKER_CONFIG
 export PATH=$HOME/.local/share/gem/ruby/3.3.0/bin:$PATH
+export PATH=$HOME/.local/share/mise/shims:$PATH
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
@@ -151,3 +152,4 @@ export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 PATH=~/.console-ninja/.bin:$PATH
+eval "$(~/.local/bin/mise activate zsh)"
