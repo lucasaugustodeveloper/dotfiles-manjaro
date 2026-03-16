@@ -4,10 +4,10 @@ blinking = "On"
 shape = "Beam"
 
 [font]
-size = 14
+size = 12
 
 [font.normal]
-family = "Victor Mono"
+family = "0xProto Nerd Font"
 style = "normal"
 
 [[keyboard.bindings]]
