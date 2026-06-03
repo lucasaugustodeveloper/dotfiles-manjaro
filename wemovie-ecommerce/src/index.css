@@ -2,6 +2,14 @@
 
 @theme {
   --color-primary: #2F2E41;
+  --color-font: #333333;
+}
+
+@layer components {
+  .card__grid {
+    @apply w-full flex flex-col items-center justify-between gap-4;
+    @apply lg:flex-row lg:flex-wrap;
+  }
 }
 
 
