@@ -8,10 +8,12 @@ import Header from './components/Header'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <div className="main max-w-270 mx-auto">
+    <div className="main max-w-270 mx-auto px-3">
       <Header />
 
-      <RouterProvider router={router} />
+      <main className='mt-8'>
+        <RouterProvider router={router} />
+      </main>
     </div>
   </StrictMode>,
 )
