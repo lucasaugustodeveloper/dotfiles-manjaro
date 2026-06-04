@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-yarn global add gitmoji-cli http-server
+npm i --global gitmoji-cli http-server yarn pnpm
 
