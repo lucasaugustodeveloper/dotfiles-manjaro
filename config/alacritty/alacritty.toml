@@ -1,4 +1,3 @@
-
 [cursor.style]
 blinking = "On"
 shape = "Beam"
@@ -18,11 +17,12 @@ key = "F11"
 program = "/usr/bin/tmux"
 
 [window]
-#decorations = "none"
+decorations = "none"
 startup_mode = "Maximized"
 
 [general]
 import = ["~/.config/alacritty/themes/rose-pine.toml"]
+live_config_reload = true
 
 [terminal]
 
