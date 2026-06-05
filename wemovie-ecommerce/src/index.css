@@ -3,6 +3,7 @@
 @theme {
   --color-primary: #2F2E41;
   --color-font: #333333;
+  --color-secondary-font: #999999;
 }
 
 @layer components {
