@@ -5,7 +5,6 @@ flatpak remotes && \
 flatpak update
 
 flatpak install flathub -y app.resp.RESP --or-update -y && \
-flatpak install flathub -y org.videolan.VLC --or-update -y && \
 flatpak install flathub -y io.typora.Typora --or-update && \
 flatpak install flathub -y com.getpostman.Postman --or-update && \
 flatpak install flathub -y com.axosoft.GitKraken --or-update && \
