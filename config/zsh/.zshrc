@@ -153,3 +153,9 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 PATH=~/.console-ninja/.bin:$PATH
 eval "$(~/.local/bin/mise activate zsh)"
+
+# opencode
+export PATH=/home/lucas/.opencode/bin:$PATH
+
+export UID=$(id -u)
+export GID=$(id -g)
